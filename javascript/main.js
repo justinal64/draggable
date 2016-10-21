@@ -20,7 +20,7 @@ $('.container').click((event)=> {
 });
 
 function white() {
-    // This is where I' will build the row starting with a white block'
+    // This is where I will build the row starting with a white block
     currentLine = "";
     currentLine += `<div class="row">`;
         currentLine += `<div class="col-xs-1 col-sm-1 col-md-1 col-md-offset-1 white"></div>`;
